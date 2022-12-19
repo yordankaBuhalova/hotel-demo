@@ -1,0 +1,239 @@
+
+@font-face{
+    font-family: Roboto;
+    src: url(../fonts/Roboto/Roboto-Bold.ttf);
+
+}
+
+@font-face{
+font-family: Bitter;
+src: url(../fonts/Bitter/Bitter-VariableFont_wght.ttf);
+}
+
+
+.buttons_style{
+    /* Layout Properties */
+top: 664px;
+left: 359px;
+width: 230px;
+height: 68px;
+/* UI Properties */
+background: #373737 0% 0% no-repeat padding-box! important;
+border: 1px solid #373737;
+opacity: 1;
+border-radius: 0px;
+font-size: 15px;
+}
+.img1-btn{
+position: absolute;
+bottom: 10px;
+
+}
+.buttons_style:hover{
+    border: none!important;
+}
+.row>* {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+     padding-right: calc(var(--bs-gutter-x) * .7);
+    padding-left: calc(var(--bs-gutter-x) * .7);
+    margin-top: var(--bs-gutter-y);
+}
+.text-btn{
+
+}
+
+.button_with_redhover{
+    /* Layout Properties */
+top: 664px;
+left: 359px;
+width: 230px;
+height: 68px;
+/* UI Properties */
+background: #373737 0% 0% no-repeat padding-box;
+border: 1px solid #373737;
+opacity: 1;
+border: 1px solid #FFFFFF;
+border-radius: 0;
+font: Bitter;
+font-size: 15px;
+}
+.button_with_redhover:hover {
+    background: #B10707 0% 0% no-repeat padding-box;
+    border: 1px solid #B10707;
+    opacity: 1;
+}
+.card1-custom{
+    max-width: 385px;
+    max-height: 467px;
+    border-radius: 0px !important;
+    border-style: none !important;
+
+}
+.card2-custom{
+    top: 80px;
+
+    width: 524px;
+    height: 387px;
+    border-radius: 0px !important;
+    border-style: none !important;
+}
+.card3-custom{
+
+    top: 80px;
+
+    width: 385px;
+    height: 493px;
+    border-radius: 0px !important;
+    border-style: none !important;
+}
+.img_style{
+    /* Layout Properties */
+    background-size: contain;
+    /* top: 265px;
+    left: 281px; */
+    width: 385px;
+    height: 467px;
+    /* UI Properties */
+    background: transparent url('../img/image_2022_12_12T08_40_05_889Z.png') 0% 0% no-repeat padding-box !important;
+
+    object-fit: cover;
+    border-radius: 0px;
+    z-index: 1;
+    opacity: 1;
+}
+
+/* .mask{
+    -webkit-mask-image: linear-gradient(transparent, #373737);
+    mask-image: linear-gradient(transparent,#373737);
+
+
+} */
+.gradient{
+    display: relative;
+
+    width: 385px;
+    height: 165px;
+    /* UI Properties */
+    background: transparent linear-gradient(180deg, #FFFFFF 0%, #FFFFFF00 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    z-index: 500;
+    border-radius: 0px;
+}
+.img-wrapper {
+    display: inline-block; /* change the default display type to inline-block */
+    overflow: hidden;      /* hide the overflow */
+    filter: brightness(0.7);
+
+}
+.img_style2{
+    /* Layout Properties */
+
+    width: 524px;
+
+
+    height: 387px;
+    /* UI Properties */
+    border-radius: 0px;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), url("../img/restaurant-wintergarten-01-gross.jpg"))
+
+    /* opacity: 0.4; */
+
+}
+
+.card2-custom  img {
+
+    transition: transform .5s, filter 1.5s ease;
+}
+
+.card2-custom:hover  img {
+
+    transform: scale(1.1);
+
+
+
+}
+
+.img_style3{
+    /* Layout Properties */
+    top: 345px;
+    left: 1254px;
+    width: 385px;
+    height: 493px;
+    border-radius: 0px;
+    object-fit:cover;
+
+    /* UI Properties */
+    background: transparent url('../img/image_2022_12_12T08_40_05_889Z.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.text-pos{
+    top: 80px;
+    position: center;
+    align-items: center;
+    vertical-align: center;
+    width: 524px;
+
+}
+.cap-1{
+    position:  absolute;
+    align-items: center;
+    max-width: 385px;
+    max-height: 467px;
+    z-index: 1000;
+
+}
+.sm_text{
+    /* UI Properties */
+    text-align: center;
+    font: normal normal normal 18px Bitter;
+    letter-spacing: 0px;
+    opacity: 1;
+
+}
+.text_color_white{
+    color:#FFFFFF;
+
+}
+.title-size{
+    font: normal normal bold 38px Roboto;
+    letter-spacing: 0px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+.text_color_black{
+color: #373737;
+}
+.custom-text{
+    max-width: 250px;
+    max-height: 88px;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.bg-container{
+    top: 350px;
+    left: 25px;
+    width: 334px;
+    height: 264px;
+    background: #373737 0% 0% no-repeat padding-box;
+    border: 1px solid #373737;
+    opacity: 1;
+    border-radius: 0px !important;
+    border-style: none !important;
+}
+.icon-style{
+    width: 6px;
+    height: 11px;
+    margin-left: 5px;
+    margin-top: -1.5px;
+}
+.card-footer{
+    margin-top: 222px;
+    border-radius: 0px;
+    background: none;
+    border: none;
+
+}
