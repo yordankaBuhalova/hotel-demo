@@ -2,8 +2,6 @@ import React, {   }  from 'react';
 import './App.css';
 import Screen from './components/Screen.js'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import ControlledCarousel from './components/Carousel.js';
-import { Container, Row } from 'react-bootstrap';
 import MediaQuery from "react-responsive";
 import CustomCarousel from './components/CarouselComponent';
 

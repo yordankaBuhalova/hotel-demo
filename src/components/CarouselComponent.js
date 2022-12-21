@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { Button, ButtonGroup, Carousel, Col, Container, Row, Stack } from 'react-bootstrap';
-import Image from 'react-bootstrap/Image';
+import { Carousel,Container, } from 'react-bootstrap';
 import Card1 from './Card1';
 import Card2 from './Card2';
 import Card3 from './Card3';
