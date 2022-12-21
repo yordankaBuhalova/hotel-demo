@@ -21,11 +21,12 @@ function Card3() {
             <Image src={require("../assets/img/image_2022_12_12T08_40_05_889Z.png")} className='img_style3' alt="..."></Image>
 
             <div className='card-img-overlay bg-container '>
-                <Card.Title className=" sm_text text_color_white">
+                <Card.Subtitle className=" sm_text text_color_white">
                     Einmaliges Angebot
+                </Card.Subtitle>
+                <Card.Title className='text_color_white custom-space title-size'>Weitwandern in Salzburg
                 </Card.Title>
-                <Card.Body className='text_color_white title-size'>Weitwandern in Salzburg
-                </Card.Body>
+                <Card.Body>
                 <Button  className='button_with_redhover'>
                     <div className='justify-content-center d-flex ' >
                     <div className='text-uppercase  text-btn '>Mehr erfahren </div>
@@ -34,7 +35,7 @@ function Card3() {
                             <path id="ScrollDownArrow_light" d="M-296.7,401.054h0l-5.3-5.3V395h.757l4.541,4.541,4.541-4.541h.757v.757Z" transform="translate(-395 -291.405) rotate(-90)" fill="#fff"/>
                         </svg>
                     </div></div>
-                </Button>
+                </Button></Card.Body>
             </div>
         </Card>
 

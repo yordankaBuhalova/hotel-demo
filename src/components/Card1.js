@@ -16,12 +16,12 @@ function Card1() {
         <Card className='card1-custom '>
             <Stack className='card-img-overlay cap-1 gradient'>
 
-                <Card.Title className=" sm_text sm_text_color_black">
+                <Card.Subtitle className=" sm_text sm_text_color_black">
                     Einmaliges Angebot
-                </Card.Title>
-                <Card.Body className='title-size'>
+                </Card.Subtitle>
+                <Card.Title className='title-size custom-space'>
                     Unsere Zimmer im Überblick
-                </Card.Body>
+                </Card.Title>
 
 
                 <div  className='card-footer'>
@@ -39,7 +39,7 @@ function Card1() {
 
             </Stack>
 
-            <Image  className='img_style card-img  mask' alt="zimmer-bergblick" src={require("../assets/img/zimmer-bergblick-07-gross.webp")}></Image>
+            <Image  className='img_style card-img' alt="zimmer-bergblick" src={require("../assets/img/zimmer-bergblick-07-gross.webp")}></Image>
         </Card>
     );
 

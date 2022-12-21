@@ -1,14 +1,28 @@
-import React, {  }  from 'react';
+import React, {   }  from 'react';
 import './App.css';
 import Screen from './components/Screen.js'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import ControlledCarousel from './components/Carousel.js';
+import { Container, Row } from 'react-bootstrap';
+import MediaQuery from "react-responsive";
+import CustomCarousel from './components/CarouselComponent';
 
 function App() {
   return (
-    <div className="App-header">
-		 <div   className='App'>
-			<Screen/>
-		</div>
+    <div>
+      <MediaQuery minWidth={1224}>
+        <div className="App-header">
+          <div className='App'>
+            <Screen id="desktopview"/>
+          </div>
+        </div>
+    </MediaQuery>
+
+    <MediaQuery maxWidth={1224}>
+
+      <CustomCarousel id="mobile"/>
+
+    </MediaQuery>
     </div>
   );
 }

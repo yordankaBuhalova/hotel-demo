@@ -17,22 +17,23 @@ function Card2() {
 
 
         <Card  className='card2-custom'>
-<div className="img-wrapper">
-        <Image src={require("../assets/img/restaurant-wintergarten-01-gross.jpg")} className='img_style2 card-img' alt="..."></Image>
-</div>
+            <div className="img-wrapper ">
+                    <Image src={require("../assets/img/restaurant-wintergarten-01-gross.jpg")}
+                    className='img_style2 card-img' alt="wintergarten"></Image>
+            </div>
             <div className='card-img-overlay text-pos '>
 
-                <Card.Title className=" sm_text text_color_white">
+                <Card.Subtitle className="sm_text text_color_white">
                     Einmaliges Angebot
-                </Card.Title>
+                </Card.Subtitle>
 
-                <Card.Body className='text_color_white title-size' >
+                <Card.Title className='text_color_white title-size' >
                     <div className='custom-text text-wrap'>
                         Unser Hotel im Überblick
                     </div>
 
-                </Card.Body>
-
+                </Card.Title>
+                <Card.Body>
                 <Button  className='buttons_style'>
                     <div className='justify-content-center d-flex ' >
                     <div className='text-uppercase  text-btn '>Mehr erfahren </div>
@@ -41,7 +42,7 @@ function Card2() {
                             <path id="ScrollDownArrow_light" d="M-296.7,401.054h0l-5.3-5.3V395h.757l4.541,4.541,4.541-4.541h.757v.757Z" transform="translate(-395 -291.405) rotate(-90)" fill="#fff"/>
                         </svg>
                     </div></div>
-                </Button>
+                </Button></Card.Body>
             </div>
         </Card>
 
